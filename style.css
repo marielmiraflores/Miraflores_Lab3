@@ -1,0 +1,30 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    place-content: center;
+    padding: var(--size-5);
+    gap: var(--size-5);
+}
+
+li {
+    list-style-type: none;
+    margin-left: -38px;
+}
+
+.border {
+    border: 2px solid rgb(27, 5, 5);
+    padding: 30px;
+    border-right-style: dashed;
+    border-left-style: dashed;
+    border-top-style: ridge;
+    border-bottom-style: ridge;
+    border-top-color: blue;
+    border-bottom-color: brown;
+    border-radius: 2px;
+}
+
+
+
